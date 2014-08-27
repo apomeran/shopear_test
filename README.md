@@ -11,20 +11,25 @@ Ingredientes:
 ­ jamón crudo
 ­ queso
 ­ manteca
+
+============
 2) Si el Sandwich fabricado, y cada uno de sus ingredientes, del anterior punto implementara la
 interfaz Eatable (ver abajo), ¿Cuál sería la mejor estrategia para verificar que cada parte y el
 conjunto estan funcionando bien?
-/**
-* Eatable Interface.
-*/
+
+ Eatable Interface.
+
 interface Eatable
 {
-/**
-* Bites the eatable object, subtracting weight from it.
-*
-* @return grams subtracted
-*/
+
+ Bites the eatable object, subtracting weight from it.
+
+ @return grams subtracted
+
 function bite(int $grams);
 }
+
+============
+
 3) Dar un ejemplo de un test unitario (sólo el test unitario) de alguna de las clases utilizadas en
 el anterior punto, que implementan la interfaz Eatable.
